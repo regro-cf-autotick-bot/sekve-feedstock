@@ -1,5 +1,5 @@
 {% set name = "sekve" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name | lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f6891935794e356ef890fe30547dfcc3a1197ec01a4f588de615e039a6d51b29
+  sha256: a10002e80395d4de7fa745ebf621a9b63e7e31ee7a7bcc663350a441e06111f9
 
 build:
   noarch: python
@@ -32,9 +32,7 @@ test:
 about:
   home: https://gitlab.com/moscm/sekv-e
   summary: SEKV-E is a Python-based parameters extractor for the simplified EKV model.
-  description: 'SEKV-E is a Python-based parameters extractor for the simplified EKV
-    model, which is developed by ICLAB, EPFL. While it has been developed to serve
-    the needs of low-power analog circuit designs.'
+  description: SEKV-E is a Python-based parameters extractor for the simplified EKV model, which is developed by ICLAB, EPFL. While it has been developed to serve the needs of low-power analog circuit designs.
   license: MIT
   license_family: MIT
   license_file: LICENSE
