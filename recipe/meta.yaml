@@ -1,5 +1,5 @@
 {% set name = "sekve" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
 
 package:
   name: {{ name | lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a10002e80395d4de7fa745ebf621a9b63e7e31ee7a7bcc663350a441e06111f9
+  sha256: 5f7f4af733d2a30040f0e78146d4f5db3aae9aadd6f7916fa831822548abcf1c
 
 build:
   noarch: python
